@@ -14,5 +14,5 @@
   },
 
   // Start een simpele webserver zodra de container start
-  "postCreateCommand": "npx serve -l 8080"
+  "postCreateCommand": "npm install -g serve && serve -l 8080"
 }

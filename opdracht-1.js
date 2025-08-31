@@ -6,7 +6,7 @@
 /*********** STAP 1 ********
   De constructor stelt nu alleen de naam en de leeftijd goed in.
   * Zorg ervoor dat je aan de constructor ook een vachtkleur (bijv. "geel") en heeftManen (true of false)
-    mee kan geven en dat dit ook overgenomen wordt door het object(met 'this').
+    mee kan geven en dat dit ook overgenomen wordt door het object (met 'this').
   * Voeg een brulgeluid toe aan de methode maakGeluid().
 ***************************/
 
