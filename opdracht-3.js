@@ -173,9 +173,9 @@ class Leeuw extends Dier {
 
 
 /*********** STAP 3 ********
-  * Zorg ervoor dat een Paard-object geen negatieve snelheid kan hebben.
-    De testcode is al gegeven.
-    Tip: pas toe wat je in STAP 1 hebt geleerd.
+  Zorg ervoor dat een Paard-object geen negatieve snelheid kan hebben.
+    * De testcode is al gegeven. Uncomment deze nu eerst, zie hiervoor de TODO's hieronder
+    * Pas op Paard toe wat je in STAP 1 bij Dier hebt geleerd.
 ***************************/
 
 // Subclass Paard
@@ -201,14 +201,18 @@ class Paard extends Dier {
 
 // testcode voor Paard
 // nieuw paard "Bullseye"
-let bullseye = new Paard("Bullseye", 10, "lichtbruin", 36);
-bullseye.printGegevens();
-bullseye.setLeeftijd(12);
-bullseye.setSnelheid(-13);  // dit moet een foutmelding geven.
-bullseye.printGegevens();   // de snelheid moet nog steeds 36 zijn.
+
+// TODO: haal de bij de volgende 5 regels de // weg 
+// let bullseye = new Paard("Bullseye", 10, "lichtbruin", 36);
+// bullseye.printGegevens();
+// bullseye.setLeeftijd(12);
+// bullseye.setSnelheid(-13);  // dit moet een foutmelding geven.
+// bullseye.printGegevens();   // de snelheid moet nog steeds 36 zijn.
 
 // nieuw paard "Spirit"
 // Als je het goed hebt gedaan, zie je een foutmelding bij de constructor
 // en wordt snelheid niet aangepast (blijft nu 'undefined').
-let spirit = new Paard("Spirit", 6, "blond", -68);
-spirit.printGegevens();
+
+// TODO: haal bij de volgende twee regels de // weg
+// let spirit = new Paard("Spirit", 6, "blond", -68);
+// spirit.printGegevens();

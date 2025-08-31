@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.9;
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  background: #fafafa;
+  color: #333;
+}
+
+h1 {
+  font-size: 1.6rem;
+  color: #2c3e50;
+}
+
+.tip {
+  background: #eef6ff;
+  border-left: 4px solid #2980b9;
+  padding: 0.8rem 1rem;
+  margin: 1rem 0;
+  border-radius: 6px;
+}
+
+code,
+kbd {
+  background: #f4f4f4;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-family: Consolas, monospace;
+}
+
+kbd {
+  border: 1px solid #aaa;
+  box-shadow: 1px 1px 0 #ccc;
+}
+
+.opdracht-buttons {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.opdracht-buttons a {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border: 2px solid #444;
+  background: #f4f4f4;
+  border-radius: 6px;
+  color: #000;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.opdracht-buttons a:hover {
+  background: #e0e0e0;
+  transform: translateY(-2px);
+}
+
+.opdracht-buttons a.active {
+  background: #444;
+  color: #fff;
+}

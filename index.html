@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <title>Objectgeoriënteerd programmeren</title>
+</head>
+<body>
+  <h1 id="opdracht-titel"></h1>
+
+  <div class="opdracht-buttons">
+    <a href="?opdracht=1">Opdracht 1</a>
+    <a href="?opdracht=2">Opdracht 2</a>
+    <a href="?opdracht=3">Opdracht 3</a>
+    <a href="?opdracht=4">Opdracht 4</a>
+  </div>
+
+  <div class="tip">
+    <p><strong>Zo bekijk je de output in de console:</strong></p>
+    <ul>
+      <li><strong>Chrome (Windows):</strong> <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>J</kbd></li>
+      <li><strong>Chrome (Mac):</strong> <kbd>Cmd</kbd> + <kbd>Option</kbd> + <kbd>J</kbd></li>
+      <li><strong>Safari (Mac):</strong> <kbd>Cmd</kbd> + <kbd>Option</kbd> + <kbd>C</kbd><br/>
+          Bij Safari moet het menu "Ontwikkel" beschikbaar zijn. Dit zet je eventueel zo aan: <br/>
+          Kies in de menubalk: Safari → Voorkeuren → Geavanceerd → Toon functies voor webontwikkelaars<br></li>
+    </ul>
+  </div>
+
+  <script>
+    // Query ophalen
+    const params = new URLSearchParams(window.location.search);
+    const opdrachtNr = params.get("opdracht") || "1";
+
+    // Titel aanpassen
+    const titel = "Objectgeoriënteerd programmeren - Opdracht " + opdrachtNr;
+    document.getElementById("opdracht-titel").textContent = titel;
+    document.title = titel;
+
+    // Active link markeren
+    document.querySelectorAll(".opdracht-buttons a").forEach(link => {
+      if (link.getAttribute("href") === "?opdracht=" + opdrachtNr) {
+        link.classList.add("active");
+      }
+    });
+
+    // Het juiste script laden
+    const script = document.createElement("script");
+    script.src = "opdracht-" + opdrachtNr + ".js";
+    document.body.appendChild(script);
+  </script>
+</body>
+</html>
