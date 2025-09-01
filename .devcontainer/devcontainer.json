@@ -2,10 +2,8 @@
   "name": "OOP opdrachten",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
 
-  // Zorg dat poort 8080 toegankelijk is
   "forwardPorts": [8080],
 
-  // Open automatisch in de browser
   "portsAttributes": {
     "8080": {
       "label": "Webserver",
@@ -13,6 +11,7 @@
     }
   },
 
-  // Start een simpele webserver zodra de container start
-  "postCreateCommand": "npm install -g serve && serve -l 8080"
+
+  "postCreateCommand": "npm install -g serve",
+  "postStartCommand": "serve . -l 8080"
 }
