@@ -3,14 +3,14 @@
 Ontwerp en programmeer een systeem voor het beheren van een sportclub.  
 Het systeem moet gebruikmaken van **alle vier de OOP-principes**:
 
-- ✅ Classes & objecten  
-- ✅ Overerving  
-- ✅ Inkapseling (private velden met getters/setters)  
-- ✅ Associaties (objecten die andere objecten gebruiken)
+- Classes & objecten  
+- Overerving  
+- Inkapseling (private velden met getters/setters)  
+- Associaties (objecten die andere objecten gebruiken)
 
 ---
 
-## ⚽ Wat moet het systeem kunnen?
+## Wat moet het systeem kunnen?
 
 De sportclub heeft:
 
@@ -29,7 +29,7 @@ De sportclub heeft:
 
 ---
 
-## ⚙️ Eisen aan je ontwerp
+## Eisen aan je ontwerp
 
 - Gebruik **getters en setters** om gegevens veilig aan te passen  
 - Gebruik **overerving** om dubbelingen te voorkomen  
@@ -38,7 +38,7 @@ De sportclub heeft:
 
 ---
 
-## ❓ Hulpvragen
+## Hulpvragen
 
 Om je op weg te helpen, denk na over deze vragen:
 
@@ -52,14 +52,15 @@ Om je op weg te helpen, denk na over deze vragen:
 
 ---
 
-## 📸 Inleveren
+## Inleveren
 
-- Teken een **UML-diagram** van jouw ontwerp  
-- Noem het bestand: `5`
+- Teken een **UML-diagram** van jouw ontwerp en maak er een foto/screenshot van.
+- Noem het bestand: `5` en upload dit in de inlevermap.
 
 ---
 
 ## 💪 Extra uitdaging
 
-- Maak in de inlevermap een bestand genaamd **`sportclub.js`**  
-- Zet daarin de **JavaScriptcode die bij jouw UML-diagram hoort**
+- Maak in de inlevermap een bestand genaamd **`sportclub.js`**.
+- Zet daarin de **JavaScriptcode die bij jouw UML-diagram hoort**.
+
