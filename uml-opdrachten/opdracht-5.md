@@ -59,8 +59,9 @@ Om je op weg te helpen, denk na over deze vragen:
 
 ---
 
-## 💪 Extra uitdaging
+## Extra uitdaging
 
 - Maak in de inlevermap een bestand genaamd **`sportclub.js`**.
 - Zet daarin de **JavaScriptcode die bij jouw UML-diagram hoort**.
+
 
