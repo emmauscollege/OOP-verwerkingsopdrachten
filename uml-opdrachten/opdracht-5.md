@@ -1,9 +1,9 @@
 # Opdracht 5: Beheer van een sportclub
 
 Ontwerp en programmeer een systeem voor het beheren van een sportclub.  
-Het systeem moet gebruikmaken van **alle vier de OOP-principes**:
+Het systeem moet gebruikmaken van **alle vier de OOP-principes die je hebt geleerd**:
 
-- Classes & objecten  
+- Klassen & objecten  
 - Overerving  
 - Inkapseling (private velden met getters/setters)  
 - Associaties (objecten die andere objecten gebruiken)
@@ -63,5 +63,6 @@ Om je op weg te helpen, denk na over deze vragen:
 
 - Maak in de inlevermap een bestand genaamd **`sportclub.js`**.
 - Zet daarin de **JavaScriptcode die bij jouw UML-diagram hoort**.
+
 
 
