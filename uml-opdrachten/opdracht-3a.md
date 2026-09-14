@@ -9,4 +9,4 @@ Maak een UML klassendiagram van de klassen **Dier**, **Leeuw** en **Paard**
 - `-` voor private
 - Voeg de getters en setters als methodes toe.
 
-Maak een foto / screenshot van je tekening en sla deze op als **4a** in de inlevermap.
+Maak een foto / screenshot van je tekening en sla deze op als **3a** in de inlevermap.
