@@ -12,4 +12,4 @@ Zet daarin:
 Teken daarnaast een eenvoudig **objectdiagram** met één of twee concrete Leeuwen  
 (bijv. `simba:Leeuw`).
 
-Maak een foto / screenshot van je tekening en sla deze op als **4a** in de inlevermap.
+Maak een foto / screenshot van je tekening en sla deze op als **1a** in de inlevermap.
