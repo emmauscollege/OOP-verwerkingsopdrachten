@@ -1,6 +1,6 @@
 # Week 4 - Associatie
 
-Tekenopdracht
+### Tekenopdracht
 Zie programmeeropdracht 4.
 
 Maak een UML klassendiagram van de klassen **Dierentuin**, **Dier**, **Leeuw** en **Verzorger**, zoals je ze in de programmeeropdracht vindt of maakt.
